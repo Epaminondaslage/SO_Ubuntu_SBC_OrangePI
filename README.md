@@ -18,7 +18,7 @@ Acesso à GPIO usando Single board computer co Linux
 
 
 
-#descrição-do-projeto
+## descrição-do-projeto
 
 Atualmente, a oferta de SBC (Single-Board Computers) é grande. Para citar somente alguns, temos acesso facilmente no mercado de sistemas embarcados a: Raspberry Pi, BeagleBone Black, BeagleBone Green, Linkit Smart 7688, Intel Edison, CubieBoard, etc. 
 
@@ -27,12 +27,17 @@ Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois 
 
 
 
-#status-do-Projeto
+## status-do-Projeto
 <h4 align="center"> 
     :construction:  Projeto em construção  :construction:
 </h4>
 
 
+## :hammer: Funcionalidades do projeto
 
+- `Funcionalidade 1`: descrição da funcionalidade 1
+- `Funcionalidade 2`: descrição da funcionalidade 2
+- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
+- `Funcionalidade 3`: descrição da funcionalidade 3
 
-#pessoas-contribuidoras)
+## pessoas-contribuidoras
