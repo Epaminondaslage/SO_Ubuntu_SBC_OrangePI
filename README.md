@@ -16,6 +16,23 @@ Acesso à GPIO usando Single board computer co Linux
 * [Conclusão](#conclusão)
 
 
+
+
+#descrição-do-projeto
+
+Atualmente, a oferta de SBC (Single-Board Computers) é grande. Para citar somente alguns, temos acesso facilmente no mercado de sistemas embarcados a: Raspberry Pi, BeagleBone Black, BeagleBone Green, Linkit Smart 7688, Intel Edison, CubieBoard, etc. 
+
+Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois aspectos: configurações de hardware cada vez mais robustas e preços cada vez menores. É justamente nestes dois pontos que a empresa Orange Pi focou para a fabricação da Orange Pi One. Esta placa possui características extremamente atraentes em hardware a um preço muito competitivo.
+
+
+
+
+#status-do-Projeto
 <h4 align="center"> 
     :construction:  Projeto em construção  :construction:
 </h4>
+
+
+
+
+#pessoas-contribuidoras)
