@@ -6,24 +6,30 @@ Acesso à GPIO usando Single board computer co Linux
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#status-do-Projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+* [Funcionalidades](#funcionalidades)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+* [Autores](#autores)
 * [Licença](#licença)
 * [Conclusão](#conclusão)
+
+## Status do Projeto
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 
-## descrição-do-projeto
+## Descrição do Projeto
 
 Atualmente, a oferta de SBC (Single-Board Computers) é grande. Para citar somente alguns, temos acesso facilmente no mercado de sistemas embarcados a: Raspberry Pi, BeagleBone Black, BeagleBone Green, Linkit Smart 7688, Intel Edison, CubieBoard, etc. 
 
 Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois aspectos: configurações de hardware cada vez mais robustas e preços cada vez menores. É justamente nestes dois pontos que a empresa Orange Pi focou para a fabricação da Orange Pi One. Esta placa possui características extremamente atraentes em hardware a um preço muito competitivo.
 
 
-## :hammer: Funcionalidades do projeto
+
+
+
+
+## :hammer: Funcionalidades 
 
 - `Funcionalidade 1`: descrição da funcionalidade 1
 - `Funcionalidade 2`: descrição da funcionalidade 2
@@ -36,3 +42,5 @@ Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois 
 
 | [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Epaminondas Lage</sub>](https://github.com/epaminondaslage) |  [<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |  [<img src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
 | :---: | :---: | :---: |
+
+## Conclusão
