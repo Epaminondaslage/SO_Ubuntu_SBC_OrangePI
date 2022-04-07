@@ -35,7 +35,8 @@ Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois 
 
 ## Tecnologias utilizadas
 
-:https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white:
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white:>
+          
 ## Autor
 
 | [<img src="https://github.com/account" width=115><br><sub>Epaminondas Lage</sub>](https://github.com/epaminondaslage) | 
