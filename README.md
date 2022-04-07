@@ -33,9 +33,9 @@ Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois 
 - `Funcionalidade 4`: descrição da funcionalidade 4
 
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas 💻
 
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white:>
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" /> | `https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white`
           
 ## Autor
 
