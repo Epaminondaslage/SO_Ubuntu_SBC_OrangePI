@@ -55,20 +55,20 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 </table>
 
 ## As conex&otilde;es externas do Orange Pi One
-<img src="/img/Imagem3.jpg" alt="" width="300"
+<p style="text-align: center;"><img src="/img/Imagem3.jpg" alt="" width="300" /></p>
 
 ## Introdu&ccedil;&atilde;o ao uso da placa de desenvolvimento
 
 ## Prepara&ccedil;&atilde;o dos acess&oacute;rios
           
 1. Cart&atilde;o TF, um cart&atilde;o de alta velocidade de classe 10 ou superior com capacidade m&iacute;nima de 8GB.
-<p style="text-align: center;"><img src="img1" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem4.jpg" alt="" width="300" /></p>
 <p>2. Leitor de cart&atilde;o TF, usado para ler e escrever cart&atilde;o TF</p>
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="img1" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem5.jpg" alt="" width="300" /></p>
 <p>3. Cabo HDMI para HDMI padr&atilde;o, usado para conectar a placa de desenvolvimento a um monitor HDMI ou TV.</p>
-<p><img src="img1" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem6.jpg" alt="" width="300" /></p>
 <p>4. Adaptador de energia, adaptador de energia de alta qualidade de pelo menos 5V/2A.</p>
-<p><img src="img1" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem7.jpg" alt="" width="300" /></p>
 <p><strong><em><span style="background-color: #ffff00;">Observe que a interface OTG da placa de desenvolvimento n&atilde;o pode ser usada como entrada de energia.</span> </em></strong></p>
 <p><strong>Download a&nbsp; imagem&nbsp; e informa&ccedil;&otilde;es relacionadas ao SW ou HW</strong></p>
 <p><a href="http://www.orangepi.org/downloadresources/">http://www.orangepi.org/downloadresources/</a></p>
