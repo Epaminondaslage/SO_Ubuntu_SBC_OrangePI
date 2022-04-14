@@ -48,14 +48,14 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td style="width: 50%;"><img src="img1" alt="" width="300" /></td>
-<td style="width: 50%;"><img src="img1" alt="" width="300" /></td>
+<td style="width: 50%;"><img src="/img/Imagem1.jpg" alt="" width="300" /></td>
+<td style="width: 50%;"><img src="/img/Imagem2.jpg" alt="" width="300" /></td>
 </tr>
 </tbody>
 </table>
 
 ## As conex&otilde;es externas do Orange Pi One
-          <img src="img1" alt="" width="300"
+          <img src="/img/Imagem3.jpg" alt="" width="300"
 
 ## Introdu&ccedil;&atilde;o ao uso da placa de desenvolvimento
 
