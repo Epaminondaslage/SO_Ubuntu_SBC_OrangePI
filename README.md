@@ -44,7 +44,7 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 ## Recursos de hardware 
 
 
-<p><strong>As vistas superior e inferior do Orange Pi One</strong></p>
+## As vistas superior e inferior do Orange Pi One
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
@@ -53,11 +53,12 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 </tr>
 </tbody>
 </table>
-<p><strong>As conex&otilde;es externas</strong><strong> do Orange Pi One</strong></p>
+## As conex&otilde;es externas</strong><strong> do Orange Pi One
 <p><img src="img1" alt="" width="300" /></p>
-<p><strong>Introdu&ccedil;&atilde;o ao uso da placa de desenvolvimento</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p>Prepara&ccedil;&atilde;o dos acess&oacute;rios</p>
+
+## Introdu&ccedil;&atilde;o ao uso da placa de desenvolvimento
+
+          ## Prepara&ccedil;&atilde;o dos acess&oacute;rios
 <p>1. Cart&atilde;o TF, um cart&atilde;o de alta velocidade de classe 10 ou superior com capacidade m&iacute;nima de 8GB.</p>
 <p style="text-align: center;"><img src="img1" alt="" width="300" /></p>
 <p>2. Leitor de cart&atilde;o TF, usado para ler e escrever cart&atilde;o TF</p>
