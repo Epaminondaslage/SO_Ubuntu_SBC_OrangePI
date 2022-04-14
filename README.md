@@ -94,18 +94,18 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 <p style="text-align: center;"><img src="/img/Imagem11.png" alt="" width="400" /></p>
 <p>4. Anotar o usu&aacute;rio e senha. Ser&aacute; necess&aacute;rio para acessar o OrangePi One : <strong>user(root)</strong>, <strong>password(orangepi)</strong></p>
 <p>5. Escolher a vers&atilde;o desejada do SO Ubuntu (geralmente a vers&atilde;o servidor mais recente&nbsp; Orangepione_2.1.0_ubuntu_xenial_server_linux3.4.113.7z):</p>
-<p style="text-align: center;"><img src="/img/Imagem12.png" alt="" width="400" /></p>
+<p style="text-align: center;"><img src="/img/Imagem11a.png" alt="" width="400" /></p>
 <p>6. Utilizar um utilit&aacute;rio para descomprimir o arquivo e criar a vers&atilde;o ISO.</p>
 
 ## Gravar o arquivo de imagem no cart&atilde;o TF.
 <p>1. Baixar uma ferramenta que pode gravar imagens em um cart&atilde;o TF, como o Balena Etcher no site:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.balena.io/etcher/">https://www.balena.io/etcher/</a></p>
 <p>2. Escolher a vers&atilde;o do SO que utiliza (MAC ou Windows. Baixar e instalar o software</p>
-<p style="text-align: center;"><img src="/img/Imagem13.png" alt="" width="400" /></p>
+<p style="text-align: center;"><img src="/img/Imagem12.png" alt="" width="400" /></p>
 <p>3. Abrir o arquivo de imagem descompactado.</p>
 <p>4. Selecionar o Cart&atilde;o TF</p>
-<p style="text-align: center;"><img src="/img/Imagem14.png" alt="" width="400" /></p>
+<p style="text-align: center;"><img src="/img/Imagem13.png" alt="" width="400" /></p>
 <p>5. Clicar no bot&atilde;o Flash. Aguardar a conclus&atilde;o da escrita.&nbsp;</p>
-<p style="text-align: center;"><img src="/img/Imagem15.png" alt="" width="400" /></p>
+<p style="text-align: center;"><img src="/img/Imagem14.png" alt="" width="400" /></p>
 
 ## Ligar o Orange Pi One e acessar seu SO
 <ol>
