@@ -55,7 +55,7 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 </table>
 
 ## As conex&otilde;es externas do Orange Pi One
-          <img src="/img/Imagem3.jpg" alt="" width="300"
+<img src="/img/Imagem3.jpg" alt="" width="300"
 
 ## Introdu&ccedil;&atilde;o ao uso da placa de desenvolvimento
 
