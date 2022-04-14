@@ -55,7 +55,7 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 </table>
 
 ## As conex&otilde;es externas do Orange Pi One
-<p style="text-align: center;"><img src="/img/Imagem3.jpg" alt="" width="200" /></p>
+<p style="text-align: center;"><img src="/img/Imagem3.jpg" alt="" width="300" /></p>
 
 ## Introdu&ccedil;&atilde;o ao uso da placa de desenvolvimento
 
@@ -64,11 +64,11 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 1. Cart&atilde;o TF, um cart&atilde;o de alta velocidade de classe 10 ou superior com capacidade m&iacute;nima de 8GB.
 <p style="text-align: center;"><img src="/img/Imagem4.jpg" alt="" width="100" /></p>
 <p>2. Leitor de cart&atilde;o TF, usado para ler e escrever cart&atilde;o TF</p>
-<p style="text-align: center;"><img src="/img/Imagem5.jpg" alt="" width="100" /></p>
+<p style="text-align: center;"><img src="/img/Imagem5.jpg" alt="" width="150" /></p>
 <p>3. Cabo HDMI para HDMI padr&atilde;o, usado para conectar a placa de desenvolvimento a um monitor HDMI ou TV.</p>
-<p style="text-align: center;"><img src="/img/Imagem6.jpg" alt="" width="100" /></p>
+<p style="text-align: center;"><img src="/img/Imagem6.jpg" alt="" width="150" /></p>
 <p>4. Adaptador de energia, adaptador de energia de alta qualidade de pelo menos 5V/2A.</p>
-<p style="text-align: center;"><img src="/img/Imagem7.jpg" alt="" width="100" /></p>
+<p style="text-align: center;"><img src="/img/Imagem7.jpg" alt="" width="150" /></p>
 <p><strong><em><span style="background-color: #ffff00;">Observe que a interface OTG da placa de desenvolvimento n&atilde;o pode ser usada como entrada de energia.</span> </em></strong></p>
 <p><strong>Download a&nbsp; imagem&nbsp; e informa&ccedil;&otilde;es relacionadas ao SW ou HW</strong></p>
 <p><a href="http://www.orangepi.org/downloadresources/">http://www.orangepi.org/downloadresources/</a></p>
@@ -80,21 +80,21 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 <p>1. Baixar a ferramenta de formato de cart&atilde;o TF, como TF Formatter, em <a href="https://www.sdcard.org/downloads/formatter_4/eula_windows/">https://www.sdcard.org/downloads/formatter_4/eula_windows/</a></p>
 <p>2. Descompactar o arquivo de download e executar o setup.exe para instalar a ferramenta em sua m&aacute;quina.</p>
 <p>3. No menu "Op&ccedil;&otilde;es", defina a op&ccedil;&atilde;o "FORMAT options" para R&Aacute;PIDO.</p>
-<p style="text-align: center;"><img src="/img/Imagem8.jpg" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem8.png" alt="" width="300" /></p>
 <p>4. Verificar se o cart&atilde;o TF inserido corresponde ao selecionado pela Ferramenta.</p>
 <p>5. Clicar no bot&atilde;o "Format".</p>
-<p style="text-align: center;"><img src="/img/Imagem9.jpg" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem9.png" alt="" width="300" /></p>
 <p>&nbsp;</p>
 
 ## Baixar a imagem do SO na p&aacute;gina de downloads.
 <p>1. Acessar o site: <a href="http://www.orangepi.org/downloadresources/">http://www.orangepi.org/downloadresources/</a>&nbsp;</p>
 <p>2. Escolher a vers&atilde;o do hw adequado e vers&atilde;o do SO desejado No nosso caso Orange Pi One e Ubuntu.</p>
-<p style="text-align: center;"><img src="/img/Imagem10.jpg" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem10.png" alt="" width="300" /></p>
 <p>3. Salvar o arquivo em seu computador e descompacte o arquivo de download para obter a imagem do sistema operacional.</p>
-<p style="text-align: center;"><img src="/img/Imagem11.jpg" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem11.png" alt="" width="300" /></p>
 <p>4. Anotar o usu&aacute;rio e senha. Ser&aacute; necess&aacute;rio para acessar o OrangePi One : <strong>user(root)</strong>, <strong>password(orangepi)</strong></p>
 <p>5. Escolher a vers&atilde;o desejada do SO Ubuntu (geralmente a vers&atilde;o servidor mais recente&nbsp; Orangepione_2.1.0_ubuntu_xenial_server_linux3.4.113.7z):</p>
-<p style="text-align: center;"><img src="/img/Imagem12.jpg" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem12.png" alt="" width="300" /></p>
 <p>6. Utilizar um utilit&aacute;rio para descomprimir o arquivo e criar a vers&atilde;o ISO.</p>
 
 ## Gravar o arquivo de imagem no cart&atilde;o TF.
