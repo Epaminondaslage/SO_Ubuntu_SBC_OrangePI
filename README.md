@@ -1,5 +1,5 @@
 ## Titulo: GPIO_em_SBC_Linux
-Acesso à GPIO usando Single board computer co Linux 
+Acesso à GPIO usando Single board computer com SO Linux 
 
 
 ## Índice 
