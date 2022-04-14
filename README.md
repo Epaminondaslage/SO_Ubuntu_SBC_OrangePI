@@ -55,14 +55,14 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 </table>
 
 ## As conex&otilde;es externas do Orange Pi One
-<p style="text-align: center;"><img src="/img/Imagem3.jpg" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem3.jpg" alt="" width="400" /></p>
 
 ## Introdu&ccedil;&atilde;o ao uso da placa de desenvolvimento
 
 ## Prepara&ccedil;&atilde;o dos acess&oacute;rios
           
 1. Cart&atilde;o TF, um cart&atilde;o de alta velocidade de classe 10 ou superior com capacidade m&iacute;nima de 8GB.
-<p style="text-align: center;"><img src="/img/Imagem4.jpg" alt="" width="100" /></p>
+<p style="text-align: center;"><img src="/img/Imagem4.jpg" alt="" width="80" /></p>
 <p>2. Leitor de cart&atilde;o TF, usado para ler e escrever cart&atilde;o TF</p>
 <p style="text-align: center;"><img src="/img/Imagem5.jpg" alt="" width="150" /></p>
 <p>3. Cabo HDMI para HDMI padr&atilde;o, usado para conectar a placa de desenvolvimento a um monitor HDMI ou TV.</p>
@@ -89,23 +89,23 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 ## Baixar a imagem do SO na p&aacute;gina de downloads.
 <p>1. Acessar o site: <a href="http://www.orangepi.org/downloadresources/">http://www.orangepi.org/downloadresources/</a>&nbsp;</p>
 <p>2. Escolher a vers&atilde;o do hw adequado e vers&atilde;o do SO desejado No nosso caso Orange Pi One e Ubuntu.</p>
-<p style="text-align: center;"><img src="/img/Imagem10.png" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem10.png" alt="" width="400" /></p>
 <p>3. Salvar o arquivo em seu computador e descompacte o arquivo de download para obter a imagem do sistema operacional.</p>
-<p style="text-align: center;"><img src="/img/Imagem11.png" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem11.png" alt="" width="400" /></p>
 <p>4. Anotar o usu&aacute;rio e senha. Ser&aacute; necess&aacute;rio para acessar o OrangePi One : <strong>user(root)</strong>, <strong>password(orangepi)</strong></p>
 <p>5. Escolher a vers&atilde;o desejada do SO Ubuntu (geralmente a vers&atilde;o servidor mais recente&nbsp; Orangepione_2.1.0_ubuntu_xenial_server_linux3.4.113.7z):</p>
-<p style="text-align: center;"><img src="/img/Imagem12.png" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem12.png" alt="" width="400" /></p>
 <p>6. Utilizar um utilit&aacute;rio para descomprimir o arquivo e criar a vers&atilde;o ISO.</p>
 
 ## Gravar o arquivo de imagem no cart&atilde;o TF.
 <p>1. Baixar uma ferramenta que pode gravar imagens em um cart&atilde;o TF, como o Balena Etcher no site:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.balena.io/etcher/">https://www.balena.io/etcher/</a></p>
 <p>2. Escolher a vers&atilde;o do SO que utiliza (MAC ou Windows. Baixar e instalar o software</p>
-<p><img src="img1" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem13.png" alt="" width="400" /></p>
 <p>3. Abrir o arquivo de imagem descompactado.</p>
 <p>4. Selecionar o Cart&atilde;o TF</p>
-<p><img src="img1" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem14.png" alt="" width="400" /></p>
 <p>5. Clicar no bot&atilde;o Flash. Aguardar a conclus&atilde;o da escrita.&nbsp;</p>
-<p><img src="img1" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem15.png" alt="" width="400" /></p>
 
 ## Ligar o Orange Pi One e acessar seu SO
 <ol>
@@ -131,7 +131,7 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 
 ## Como descobrir o endere&ccedil;o IP do Orange Pi One?
 <p>Para descobrir o IP de um dispositivo ligado a uma rede ser&aacute; necess&aacute;rio um programa para analisar a rede local que est&aacute; sendo utilizada. O Wireshark &eacute; o analisador de protocolo de rede amplamente utilizado do mundo. Ele permite que voc&ecirc; veja o que est&aacute; acontecendo em sua rede. Ele pode ser baixado em <a href="https://www.wireshark.org/">https://www.wireshark.org/</a> &nbsp;</p>
-<p><img src="img1" alt="" width="300" /></p>
+<p style="text-align: center;"><img src="/img/Imagem18.png" alt="" width="400" /></p>
 <p>Usar o comando Ping para verificar se &eacute; o Orange Pi One que est&aacute; sendo utilizado. Certamente ir&aacute; obter um tempo de resposta (ms).</p>
 
 # Status do Projeto
