@@ -57,7 +57,18 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 
 
 # Recursos de hardware 
+
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 50%;">
 <p style="text-align: center;"><img src="/img/Imagem3.jpg" alt="" width="400" /></p>
+</td>
+<p style="text-align: center;"><img src="/img/hw orange pi.png" alt="" width="400" /></p>
+</tr>
+</tbody>
+</table>
+
 
 ## As vistas superior e inferior do Orange Pi One
 <table style="border-collapse: collapse; width: 100%;" border="1">
