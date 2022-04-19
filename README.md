@@ -5,11 +5,13 @@ Acesso à GPIO usando Single board computer com SO Linux
 # Índice 
 
 * [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Índice](#índice)
+* [Descrição do Projeto](#Descrição-do-Projeto)
 * [O que é o Orange Pi?](#O-que-é-o-Orange-Pi?)
-* [Status do Projeto](#status-do-Projeto)
+* [Aplicações do Orange Pi](#Aplicações-do-Orange-Pi)
+* [Recursos de hardware](#Recursos-de-hardware)
 * [Funcionalidades](#funcionalidades)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Status do Projeto](#Status-do-Projeto)
 * [Autor](#autores)
 * [Licença](#licença)
 * [Conclusão](#conclusão)
@@ -25,7 +27,7 @@ Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois 
 
 Orange Pi é um computador de uma placa única e de código aberto. Percence a uma nova geração de placa de desenvolvimento, pode executar o Android 4.4, Android 7.0, Ubuntu e Debian e outros sistemas operacionais. A placa de desenvolvimento Orange Pi One usa o sistema em chip Allwinner H3 e possui 512 MB de memória DDR3.
 
-## Aplicaçoes do Orange Pi
+# Aplicações do Orange Pi
 
 Podemos usá-lo para construir:
 <ul>
@@ -41,8 +43,7 @@ Podemos usá-lo para construir:
 </ul>
 Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 
-## Recursos de hardware 
-
+# Recursos de hardware 
 
 ## As vistas superior e inferior do Orange Pi One
 <table style="border-collapse: collapse; width: 100%;" border="1">
@@ -57,10 +58,9 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 ## As conex&otilde;es externas do Orange Pi One
 <p style="text-align: center;"><img src="/img/Imagem3.jpg" alt="" width="400" /></p>
 
-## Introdu&ccedil;&atilde;o ao uso da placa de desenvolvimento
+# Introdução ao uso da placa de desenvolvimento
 
-## Prepara&ccedil;&atilde;o dos acess&oacute;rios
-          
+## Preparação dos acessórios   
 1. Cart&atilde;o TF, um cart&atilde;o de alta velocidade de classe 10 ou superior com capacidade m&iacute;nima de 8GB.
 <p style="text-align: center;"><img src="/img/Imagem4.jpg" alt="" width="80" /></p>
 <p>2. Leitor de cart&atilde;o TF, usado para ler e escrever cart&atilde;o TF</p>
