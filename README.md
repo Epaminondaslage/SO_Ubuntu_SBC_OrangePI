@@ -180,7 +180,10 @@ Onde:
 
 Assim que digitar as informações, basta pressionar ENTER. Será preciso inserir suas credenciais como nome de usuário e senha de acesso a sua conta. No caso o Orange Pi o User=root e a Senha=orangepi
 
-Novamente, confirme pressionando ENTER mais uma vez. Uma janela remota de acesso ao Orange Pi vai aparecer logo na sequência.
+    User=root
+    Senha=orangepi
+  
+Novamente, confirme pressionando ENTER mais uma vez. Uma janela remota de acesso ao Orange Pi vai aparecer logo na sequência.Pronto você está acessando o Shell do Orange Pi. Pode assim transferir, editar, executar programas, comandos do SO ou outra atividade. 
 
 <p style="text-align: center;"><img src="/img/ssh_orange.png" alt="" width="300" /></p>
 
