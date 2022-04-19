@@ -1,10 +1,9 @@
-# Titulo: GPIO_em_SBC_Linux
+# Título: GPIO_em_SBC_Linux
 Acesso à GPIO usando Single board computer com SO Linux 
 
 
-# Índice 
+# Índice deste Repositório
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
 * [Descrição deste Projeto](#Descrição-deste-Projeto)
 * [O que é o Orange Pi?](#O-que-é-o-Orange-Pi?)
 * [Aplicações do Orange Pi](#Aplicações-do-Orange-Pi)
