@@ -14,7 +14,7 @@ Acesso à GPIO usando Single board computer com SO Linux
 * [Scripts em Shell](#Scripts-em-shell)
 * [Status do Projeto](#Status-do-Projeto)
 * [Autor](#autor)
-* [Conclusão](#conclusão)
+* [Bibliogafia](#Bibliogafia)
 
 
 # Descrição deste Projeto
@@ -230,18 +230,17 @@ Portanto pode-se sair da sessão e fazer ssh com o usuário recém criado.
 </tbody>
 </table>
 
-
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
-- `Funcionalidade 4`: descrição da funcionalidade 4
-- 
 # Status do Projeto
-
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 # Autor
-
 | [<img src="https://github.com/account" width=115><br><sub>Epaminondas Lage</sub>](https://github.com/epaminondaslage) | 
 
-# Conclusão
+# Bibliogafia
+
+- `Orangepi one_h3_user manual_v3.2.pdf `: Manual de operação da Orange Pi One
+- `Funcionalidade 2`: descrição da funcionalidade 2
+- `Funcionalidade 3`: descrição da funcionalidade 3
+- `Funcionalidade 4`: descrição da funcionalidade 4
+
+
