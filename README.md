@@ -9,7 +9,7 @@ Acesso à GPIO usando Single board computer com SO Linux
 * [O que é o Orange Pi?](#O-que-é-o-Orange-Pi?)
 * [Aplicações do Orange Pi](#Aplicações-do-Orange-Pi)
 * [Recursos de hardware](#Recursos-de-hardware)
-* [Funcionalidades](#funcionalidades)
+* [Introdução ao uso da placa de desenvolvimento](#Introdução-ao-uso-da-placa-de-desenvolvimento)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Status do Projeto](#Status-do-Projeto)
 * [Autor](#autores)
@@ -98,10 +98,11 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <p><strong>Download a&nbsp; imagem&nbsp; e informa&ccedil;&otilde;es relacionadas ao SW ou HW</strong></p>
 <p><a href="http://www.orangepi.org/downloadresources/">http://www.orangepi.org/downloadresources/</a></p>
 <p><a href="https://github.com/orangepi-xunlong">https://github.com/orangepi-xunlong</a></p>
-<p><strong>Instala&ccedil;&atilde;o do TF Card</strong></p>
+
+## Instalação da Imagem no TF Card
 <p>Inserir o cart&atilde;o TF em seu computador. O tamanho do TF deve ser maior que o tamanho da imagem do SO, geralmente 4 GB ou mais.</p>
 
-## Formatar o cart&atilde;o TF.
+## Formatar o cartão TF.
 <p>1. Baixar a ferramenta de formato de cart&atilde;o TF, como TF Formatter, em <a href="https://www.sdcard.org/downloads/formatter_4/eula_windows/">https://www.sdcard.org/downloads/formatter_4/eula_windows/</a></p>
 <p>2. Descompactar o arquivo de download e executar o setup.exe para instalar a ferramenta em sua m&aacute;quina.</p>
 <p>3. No menu "Op&ccedil;&otilde;es", defina a op&ccedil;&atilde;o "FORMAT options" para R&Aacute;PIDO.</p>
