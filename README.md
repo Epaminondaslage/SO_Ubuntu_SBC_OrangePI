@@ -5,43 +5,65 @@ Acesso à GPIO usando Single board computer com SO Linux
 # Índice 
 
 * [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Índice](#índice)
+* [Descrição deste Projeto](#Descrição-deste-Projeto)
 * [O que é o Orange Pi?](#O-que-é-o-Orange-Pi?)
-* [Status do Projeto](#status-do-Projeto)
-* [Funcionalidades](#funcionalidades)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Autor](#autores)
-* [Licença](#licença)
+* [Aplicações do Orange Pi](#Aplicações-do-Orange-Pi)
+* [Recursos de hardware](#Recursos-de-hardware)
+* [Introdução ao uso da placa de desenvolvimento](#Introdução-ao-uso-da-placa-de-desenvolvimento)
+* [Instalação da Imagem no TF Card](#Instalação-da-Imagem-no-TF-Card)
+* [Scripts em Shell](#Scripts-em-shell)
+* [Status do Projeto](#Status-do-Projeto)
+* [Autor](#autor)
 * [Conclusão](#conclusão)
 
 
-# Descrição do Projeto
+# Descrição deste Projeto
+Computador de placa única (SBC) é um computador onde todos os componentes electrónicos necessários para o seu funcionamento estão situados numa única placa de circuito impresso. Estes computadores são geralmente usados em sistemas de controle, alarmes, sistemas de medidas, entre outros. Atualmente, a oferta de SBC (Single-Board Computers) é grande. Para citar somente alguns, temos acesso facilmente no mercado de sistemas embarcados a: Raspberry Pi, BeagleBone Black, BeagleBone Green, Linkit Smart 7688, Intel Edison, CubieBoard, Arduino Mega 2560, Odroid, Orange Pi, Asus Tinker Board, etc. 
 
-Atualmente, a oferta de SBC (Single-Board Computers) é grande. Para citar somente alguns, temos acesso facilmente no mercado de sistemas embarcados a: Raspberry Pi, BeagleBone Black, BeagleBone Green, Linkit Smart 7688, Intel Edison, CubieBoard, etc. 
+Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois aspectos: configurações de hardware cada vez mais robustas e preços cada vez menores. É justamente nestes dois pontos que a empresa Orange Pi focou para a fabricação da Orange Pi One. Esta placa possui características extremamente atraentes em hardware a um preço muito competitivo. Entre outras características, esta máquina também incorpora um conector de 40 pins, porta USB, uma porta Gigabit Ethernet e HDMI. 
 
-Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois aspectos: configurações de hardware cada vez mais robustas e preços cada vez menores. É justamente nestes dois pontos que a empresa Orange Pi focou para a fabricação da Orange Pi One. Esta placa possui características extremamente atraentes em hardware a um preço muito competitivo.
+Estas placas rodam o SO Linux  e possuem os pinos I/O  disponíveis para acesso através de Shell script, Pynton, etc. Uma vez configurados a direção do pino de I/O pode-se ler ou alterar o estado do pino de I/O resultado em leituras de sensores externos, atuação de relés, etc. 
+
+Este Repositório visa disponibilizar aos alunos do Curso de Eletrotécnica do Departamento de Engenharia Elétrica do CEFET-MG um tutorial de uso e um repositório de programas para o acesso à GPIO do Orange Pi através de Shell Script
+
 
 # O que é o Orange Pi?
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 50%;"><img src="/img/Imagem1.jpg" alt="" width="200" /></td>
+<td style="width: 50%;">Orange Pi &eacute; um computador de uma placa &uacute;nica e de c&oacute;digo aberto. Percence a uma nova gera&ccedil;&atilde;o de placa de desenvolvimento, pode executar o Android 4.4, Android 7.0, Ubuntu e Debian e outros sistemas operacionais. A placa de desenvolvimento Orange Pi One usa o sistema em chip Allwinner H3 e possui 512 MB de mem&oacute;ria DDR3.</td>
+</tr>
+</tbody>
+</table>
 
-Orange Pi é um computador de uma placa única e de código aberto. Percence a uma nova geração de placa de desenvolvimento, pode executar o Android 4.4, Android 7.0, Ubuntu e Debian e outros sistemas operacionais. A placa de desenvolvimento Orange Pi One usa o sistema em chip Allwinner H3 e possui 512 MB de memória DDR3.
 
-## Aplicaçoes do Orange Pi
-
-Podemos usá-lo para construir:
+# Aplicações do Orange Pi
+Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemos usá-lo para construir:
 <ul>
 <li>Um computador</li>
 <li>Um servidor sem fio</li>
 <li>Jogos</li>
-<li>M&uacute;sica e sons</li>
-<li>V&iacute;deo HD</li>
+<li>Música e sons</li>
+<li>Vídeo HD</li>
 <li>Desenvolvimento de IoT</li>
 <li>Firewall</li>
 <li>Roteadores</li>
 <li>Android</li>
 </ul>
-Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 
-## Recursos de hardware 
+
+# Recursos de hardware 
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<p><img src="/img/Imagem3.jpg" alt="" width="300" /></p>
+</td>
+<td style="width: 50%;"><img src="/img/hw orange pi.png" alt="" width="300" /></td>
+</tr>
+</tbody>
+</table>
 
 
 ## As vistas superior e inferior do Orange Pi One
@@ -57,10 +79,9 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 ## As conex&otilde;es externas do Orange Pi One
 <p style="text-align: center;"><img src="/img/Imagem3.jpg" alt="" width="400" /></p>
 
-## Introdu&ccedil;&atilde;o ao uso da placa de desenvolvimento
+# Introdução ao uso da placa de desenvolvimento
 
-## Prepara&ccedil;&atilde;o dos acess&oacute;rios
-          
+## Preparação dos acessórios   
 1. Cart&atilde;o TF, um cart&atilde;o de alta velocidade de classe 10 ou superior com capacidade m&iacute;nima de 8GB.
 <p style="text-align: center;"><img src="/img/Imagem4.jpg" alt="" width="80" /></p>
 <p>2. Leitor de cart&atilde;o TF, usado para ler e escrever cart&atilde;o TF</p>
@@ -73,10 +94,11 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 <p><strong>Download a&nbsp; imagem&nbsp; e informa&ccedil;&otilde;es relacionadas ao SW ou HW</strong></p>
 <p><a href="http://www.orangepi.org/downloadresources/">http://www.orangepi.org/downloadresources/</a></p>
 <p><a href="https://github.com/orangepi-xunlong">https://github.com/orangepi-xunlong</a></p>
-<p><strong>Instala&ccedil;&atilde;o do TF Card</strong></p>
+
+# Instalação da Imagem no TF Card
 <p>Inserir o cart&atilde;o TF em seu computador. O tamanho do TF deve ser maior que o tamanho da imagem do SO, geralmente 4 GB ou mais.</p>
 
-## Formatar o cart&atilde;o TF.
+## Formatar o cartão TF.
 <p>1. Baixar a ferramenta de formato de cart&atilde;o TF, como TF Formatter, em <a href="https://www.sdcard.org/downloads/formatter_4/eula_windows/">https://www.sdcard.org/downloads/formatter_4/eula_windows/</a></p>
 <p>2. Descompactar o arquivo de download e executar o setup.exe para instalar a ferramenta em sua m&aacute;quina.</p>
 <p>3. No menu "Op&ccedil;&otilde;es", defina a op&ccedil;&atilde;o "FORMAT options" para R&Aacute;PIDO.</p>
@@ -123,33 +145,31 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto.
 <p>Se voc&ecirc; deseja visualizar as informa&ccedil;&otilde;es de sa&iacute;da do sistema atrav&eacute;s da porta serial de depura&ccedil;&atilde;o, use o cabo serial para conectar a placa de desenvolvimento ao computador.</p>
 
 ## Como descobrir qual &eacute; o meu IP?
+I IP de seu computador pode ser descorberto através de comandos do próprio windows como o exemplo abaixo:
 <ol>
 <li>Abrir o CMD. Pressionar &ldquo;Win+R&rdquo; para abrir o Executar, digite cmd e clique em &ldquo;OK&rdquo; para abrir o Prompt de Comando.</li>
 <li>Digitar o comando ipconfig, e teclar Enter.</li>
 <li>Procurar por Endere&ccedil;o IPv4. Assim que o comando for executado, uma s&eacute;rie de informa&ccedil;&otilde;es ser&atilde;o exibidas na tela.</li>
 </ol>
+Pode-se usar aplicativos para o desktop ou para celular (desde que o Wi-Fi de seu celular esteja na mesma rede. O Fing (https://www.fing.com) permite aproveitar ao máximo sua rede. Ele premite ver todos os dispositivos conectados ao roteador WiFi, executa scanners de rede, monitora a velocidade da Internet e o nível de segurança. 
+No exemplo abaixo está sendo utilizando o programa IP Scanner que possui mesma finalidade.
+<p style="text-align: center;"><img src="/img/IP Scanner.png" alt="" width="300" /></p>
 
 ## Como descobrir o endere&ccedil;o IP do Orange Pi One?
 <p>Para descobrir o IP de um dispositivo ligado a uma rede ser&aacute; necess&aacute;rio um programa para analisar a rede local que est&aacute; sendo utilizada. O Wireshark &eacute; o analisador de protocolo de rede amplamente utilizado do mundo. Ele permite que voc&ecirc; veja o que est&aacute; acontecendo em sua rede. Ele pode ser baixado em <a href="https://www.wireshark.org/">https://www.wireshark.org/</a> &nbsp;</p>
 <p style="text-align: center;"><img src="/img/Imagem18.png" alt="" width="400" /></p>
 <p>Usar o comando Ping para verificar se &eacute; o Orange Pi One que est&aacute; sendo utilizado. Certamente ir&aacute; obter um tempo de resposta (ms).</p>
 
-# Status do Projeto
-
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
-# :hammer: Funcionalidades 
-
+# Scripts em Shell
 - `Funcionalidade 1`: descrição da funcionalidade 1
 - `Funcionalidade 2`: descrição da funcionalidade 2
 - `Funcionalidade 3`: descrição da funcionalidade 3
 - `Funcionalidade 4`: descrição da funcionalidade 4
+- 
+# Status do Projeto
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-# Tecnologias utilizadas 💻
-
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" /> | `https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white`
-          
 # Autor
 
 | [<img src="https://github.com/account" width=115><br><sub>Epaminondas Lage</sub>](https://github.com/epaminondaslage) | 
