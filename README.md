@@ -62,9 +62,9 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <tbody>
 <tr>
 <td style="width: 50%;">
-<p style="text-align: center;"><img src="/img/Imagem3.jpg" alt="" width="300" /></p>
+<p><img src="/img/Imagem3.jpg" alt="" width="300" /></p>
 </td>
-<p style="text-align: center;"><img src="/img/hw orange pi.png" alt="" width="300" /></p>
+<td style="width: 50%;"><img src="/img/hw orange pi.png" alt="" width="300" /></td>
 </tr>
 </tbody>
 </table>
