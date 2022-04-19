@@ -145,11 +145,15 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <p>Se voc&ecirc; deseja visualizar as informa&ccedil;&otilde;es de sa&iacute;da do sistema atrav&eacute;s da porta serial de depura&ccedil;&atilde;o, use o cabo serial para conectar a placa de desenvolvimento ao computador.</p>
 
 ## Como descobrir qual &eacute; o meu IP?
+I IP de seu computador pode ser descorberto através de comandos do próprio windows como o exemplo abaixo:
 <ol>
 <li>Abrir o CMD. Pressionar &ldquo;Win+R&rdquo; para abrir o Executar, digite cmd e clique em &ldquo;OK&rdquo; para abrir o Prompt de Comando.</li>
 <li>Digitar o comando ipconfig, e teclar Enter.</li>
 <li>Procurar por Endere&ccedil;o IPv4. Assim que o comando for executado, uma s&eacute;rie de informa&ccedil;&otilde;es ser&atilde;o exibidas na tela.</li>
 </ol>
+Pode-se usar aplicativos para o desktop ou para celular (desde que o Wi-Fi de seu celular esteja na mesma rede. O Fing (https://www.fing.com) permite aproveitar ao máximo sua rede. Ele premite ver todos os dispositivos conectados ao roteador WiFi, executa scanners de rede, monitora a velocidade da Internet e o nível de segurança. 
+No exemplo abaixo está sendo utilizando o programa IP Scanner que possui mesma finalidade.
+<p style="text-align: center;"><img src="/img/IP Scanner.png" alt="" width="300" /></p>
 
 ## Como descobrir o endere&ccedil;o IP do Orange Pi One?
 <p>Para descobrir o IP de um dispositivo ligado a uma rede ser&aacute; necess&aacute;rio um programa para analisar a rede local que est&aacute; sendo utilizada. O Wireshark &eacute; o analisador de protocolo de rede amplamente utilizado do mundo. Ele permite que voc&ecirc; veja o que est&aacute; acontecendo em sua rede. Ele pode ser baixado em <a href="https://www.wireshark.org/">https://www.wireshark.org/</a> &nbsp;</p>
