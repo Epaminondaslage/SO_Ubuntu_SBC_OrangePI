@@ -10,15 +10,14 @@ Acesso à GPIO usando Single board computer com SO Linux
 * [Aplicações do Orange Pi](#Aplicações-do-Orange-Pi)
 * [Recursos de hardware](#Recursos-de-hardware)
 * [Introdução ao uso da placa de desenvolvimento](#Introdução-ao-uso-da-placa-de-desenvolvimento)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Instalação da Imagem no TF Card](#Instalação-da-Imagem-no-TF-Card)
+* [Scripts em Shell](#Scripts-em-shell)
 * [Status do Projeto](#Status-do-Projeto)
-* [Autor](#autores)
-* [Licença](#licença)
+* [Autor](#autor)
 * [Conclusão](#conclusão)
 
 
 # Descrição deste Projeto
-
 Computador de placa única (SBC) é um computador onde todos os componentes electrónicos necessários para o seu funcionamento estão situados numa única placa de circuito impresso. Estes computadores são geralmente usados em sistemas de controle, alarmes, sistemas de medidas, entre outros. Atualmente, a oferta de SBC (Single-Board Computers) é grande. Para citar somente alguns, temos acesso facilmente no mercado de sistemas embarcados a: Raspberry Pi, BeagleBone Black, BeagleBone Green, Linkit Smart 7688, Intel Edison, CubieBoard, Arduino Mega 2560, Odroid, Orange Pi, Asus Tinker Board, etc. 
 
 Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois aspectos: configurações de hardware cada vez mais robustas e preços cada vez menores. É justamente nestes dois pontos que a empresa Orange Pi focou para a fabricação da Orange Pi One. Esta placa possui características extremamente atraentes em hardware a um preço muito competitivo. Entre outras características, esta máquina também incorpora um conector de 40 pins, porta USB, uma porta Gigabit Ethernet e HDMI. 
@@ -29,7 +28,6 @@ Este Repositório visa disponibilizar aos alunos do Curso de Eletrotécnica do D
 
 
 # O que é o Orange Pi?
-
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
@@ -41,7 +39,6 @@ Este Repositório visa disponibilizar aos alunos do Curso de Eletrotécnica do D
 
 
 # Aplicações do Orange Pi
-
 Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemos usá-lo para construir:
 <ul>
 <li>Um computador</li>
@@ -57,7 +54,6 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 
 
 # Recursos de hardware 
-
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
@@ -99,7 +95,7 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <p><a href="http://www.orangepi.org/downloadresources/">http://www.orangepi.org/downloadresources/</a></p>
 <p><a href="https://github.com/orangepi-xunlong">https://github.com/orangepi-xunlong</a></p>
 
-## Instalação da Imagem no TF Card
+# Instalação da Imagem no TF Card
 <p>Inserir o cart&atilde;o TF em seu computador. O tamanho do TF deve ser maior que o tamanho da imagem do SO, geralmente 4 GB ou mais.</p>
 
 ## Formatar o cartão TF.
@@ -160,22 +156,16 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <p style="text-align: center;"><img src="/img/Imagem18.png" alt="" width="400" /></p>
 <p>Usar o comando Ping para verificar se &eacute; o Orange Pi One que est&aacute; sendo utilizado. Certamente ir&aacute; obter um tempo de resposta (ms).</p>
 
-# Status do Projeto
-
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
-# :hammer: Funcionalidades 
-
+# Scripts em Shell
 - `Funcionalidade 1`: descrição da funcionalidade 1
 - `Funcionalidade 2`: descrição da funcionalidade 2
 - `Funcionalidade 3`: descrição da funcionalidade 3
 - `Funcionalidade 4`: descrição da funcionalidade 4
+- 
+# Status do Projeto
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-# Tecnologias utilizadas 💻
-
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" /> | `https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white`
-          
 # Autor
 
 | [<img src="https://github.com/account" width=115><br><sub>Epaminondas Lage</sub>](https://github.com/epaminondaslage) | 
