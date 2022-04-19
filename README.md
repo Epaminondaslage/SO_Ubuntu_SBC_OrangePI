@@ -34,7 +34,7 @@ Este Repositório visa disponibilizar aos alunos do Curso de Eletrotécnica do D
 <tbody>
 <tr>
 <td style="width: 50%;"><img src="/img/Imagem1.jpg" alt="" width="150" /></td>
-<td style="width: 50%;"><Orange Pi é um computador de uma placa única e de código aberto. Percence a uma nova geração de placa de desenvolvimento, pode executar o Android 4.4, Android 7.0, Ubuntu e Debian e outros sistemas operacionais. A placa de desenvolvimento Orange Pi One usa o sistema em chip Allwinner H3 e possui 512 MB de memória DDR3.></td>
+<td style="width: 50%;">Orange Pi &eacute; um computador de uma placa &uacute;nica e de c&oacute;digo aberto. Percence a uma nova gera&ccedil;&atilde;o de placa de desenvolvimento, pode executar o Android 4.4, Android 7.0, Ubuntu e Debian e outros sistemas operacionais. A placa de desenvolvimento Orange Pi One usa o sistema em chip Allwinner H3 e possui 512 MB de mem&oacute;ria DDR3.</td>
 </tr>
 </tbody>
 </table>
