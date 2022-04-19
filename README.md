@@ -170,9 +170,9 @@ Shell, do inglês, significa concha, casca ou algo revestido. Neste contexto, o 
 
 Para efetuar este comando a sintaxe do comando é a que segue. Vale lembrar que deverá ser digitado na linha de comando do teu terminal.
 
-ssh {user}@{host}
+    ssh {user}@{host}
 
-COnde:
+Onde:
 
     ssh – é a indicação do uso do comando SSH, que indica ao sistema que se quer abrir uma conexão criptografada e segura.
     {user} – é a conta a qual você deseja se conectar remotamente como usuário root (raiz), com direitos completos para mexer em qualquer coisa do sistema.
