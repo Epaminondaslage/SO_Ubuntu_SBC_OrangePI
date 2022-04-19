@@ -224,7 +224,7 @@ Portanto pode-se sair da sessão e fazer ssh com o usuário recém criado.
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td style="width: 11.242%;"><img src="manual.png" alt="" width="100" /></td>
+<td style="width: 11.242%;"><img src="/img/manual.png" alt="" width="100" /></td>
 <td style="width: 88.758%;"><br />Um arquivo PDF completo do manual de operação da SBC Orange Pi ode ser encontrado <a href="/docs/orangepi one_h3_user manual_v3.2.pdf">aqui</a></td>
 </tr>
 </tbody>
