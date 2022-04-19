@@ -156,9 +156,13 @@ No exemplo abaixo está sendo utilizando o programa IP Scanner que possui mesma 
 <p style="text-align: center;"><img src="/img/IP Scanner.png" alt="" width="300" /></p>
 
 ## Como descobrir o endere&ccedil;o IP do Orange Pi One?
-<p>Para descobrir o IP de um dispositivo ligado a uma rede ser&aacute; necess&aacute;rio um programa para analisar a rede local que est&aacute; sendo utilizada. O Wireshark &eacute; o analisador de protocolo de rede amplamente utilizado do mundo. Ele permite que voc&ecirc; veja o que est&aacute; acontecendo em sua rede. Ele pode ser baixado em <a href="https://www.wireshark.org/">https://www.wireshark.org/</a> &nbsp;</p>
-<p style="text-align: center;"><img src="/img/Imagem18.png" alt="" width="400" /></p>
-<p>Usar o comando Ping para verificar se &eacute; o Orange Pi One que est&aacute; sendo utilizado. Certamente ir&aacute; obter um tempo de resposta (ms).</p>
+<p>Para descobrir o IP de um dispositivo ligado a uma rede ser&aacute; necess&aacute;rio um programa para analisar a rede local que est&aacute; sendo utilizada. O IP Scanner ou outro analisador de redes.
+<p style="text-align: center;"><img src="/img/IP Scanner1.png" alt="" width="300" /></p>
+
+Uma vez identificado o Orange Pi pode-se exetutar comando Ping para verificar se é o Orange Pi One que está sendo utilizado. Certamente irá obter um tempo de resposta (ms).
+<p style="text-align: center;"><img src="/img/ping.png" alt="" width="300" /></p>
+Desligue o Orange Pi One durande a execução comando Ping e irá observar que não terá mais este “time”. Ligue novemante e ele voltará a ter o tempo de resposta. 
+
 
 # Scripts em Shell
 - `Funcionalidade 1`: descrição da funcionalidade 1
