@@ -187,7 +187,17 @@ Novamente, confirme pressionando ENTER mais uma vez. Uma janela remota de acesso
 
 <p style="text-align: center;"><img src="/img/ssh_orange.png" alt="" width="300" /></p>
 
-# Scripts em Shell
+# Introdução ao Scripts em Shell
+
+Podemos utilizar a criação de arquivos de scripts para tornar mais simples as execuções de tarefas repetitivas no dia a dia. Muito tempo do programador é empregado em ações desse tipo, como abrir os mesmos programas todos os dias; esvaziar a lixeira e diretórios temp para economizar espaço em disco; etc.
+Um script nada mais é do que um algoritmo projetado para realizar uma determinada tarefa, utilizando os comandos específicos do bash e os executáveis do sistema operacional.
+
+
+    Lembre-se de executar os comandos como usuário comum e não como root, visto que, como root tudo será aceito e, dependendo do que você fizer, isto pode gerar danos ao sistema operacional. Uma maneira fácil de verificar é abrir o terminal e se o símbolo antes do cursor é o $, você está como usuário comum, mas se é o #, você está como root. Para sair do modo root, digite exit
+    Devemos portando criar um usuário para que possamos trabalhar com segurança.
+    
+
+
 - `Funcionalidade 1`: descrição da funcionalidade 1
 - `Funcionalidade 2`: descrição da funcionalidade 2
 - `Funcionalidade 3`: descrição da funcionalidade 3
