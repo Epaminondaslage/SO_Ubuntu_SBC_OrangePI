@@ -163,6 +163,26 @@ Uma vez identificado o Orange Pi pode-se exetutar comando Ping para verificar se
 <p style="text-align: center;"><img src="/img/ping.png" alt="" width="300" /></p>
 Desligue o Orange Pi One durande a execução comando Ping e irá observar que não terá mais este “time”. Ligue novemante e ele voltará a ter o tempo de resposta. 
 
+## Como acessar remotamente o Orange Pi?
+O SSH é um protocolo de rede para o usuário internet acessar, administrar e modificar  remotamente computadores. Com o acesso SSH, o usuário pode fazer login em um outro computador por uma rede protegida por criptografia. Assim pode-se executar comandos, mover e editar arquivos de um local para outro sem riscos de interceptação por agentes maliciosos.
+Essa tecnologia oferece uma interface baseada em texto para criar o acesso Shell remoto. Essa interface é o próprio terminal Shell, que executa os comandos digitados e faz a ponte entre a máquina do usuário e o servidor remoto. 
+Shell, do inglês, significa concha, casca ou algo revestido. Neste contexto, o Shell é um interceptador de comandos que executa a ligação entre o usuário e o sistema operacional.
+
+Para efetuar este comando a sintaxe do comando é a que segue. Vale lembrar que deverá ser digitado na linha de comando do teu terminal.
+
+ssh {user}@{host}
+
+COnde:
+
+    ssh – é a indicação do uso do comando SSH, que indica ao sistema que se quer abrir uma conexão criptografada e segura.
+    {user} – é a conta a qual você deseja se conectar remotamente como usuário root (raiz), com direitos completos para mexer em qualquer coisa do sistema.
+    {host} – é o computador que você quer acessar, inserindo um número de IP ou nome de domínio específico (o número do IP descoberto acima).
+
+Assim que digitar as informações, basta pressionar ENTER. Será preciso inserir suas credenciais como nome de usuário e senha de acesso a sua conta. No caso o Orange Pi o User=root e a Senha=orangepi
+
+Novamente, confirme pressionando ENTER mais uma vez. Uma janela remota de acesso ao Orange Pi vai aparecer logo na sequência.
+
+<p style="text-align: center;"><img src="/img/ssh_orange.png" alt="" width="300" /></p>
 
 # Scripts em Shell
 - `Funcionalidade 1`: descrição da funcionalidade 1
