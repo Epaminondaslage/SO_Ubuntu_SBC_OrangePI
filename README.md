@@ -219,8 +219,8 @@ Além disso, quando é adicionado um novo usuário, é criado, por padrão, um g
 	Other []: 
     Is the information correct? [Y/n] Y
     root@orangepione:/home# 
-
-
+Portanto pode-se sair da sessão e fazer ssh com o usuário recem criado.
+<p style="text-align: center;"><img src="/img/epaminondaslage.png" alt="" width="300" /></p>
 
 
 - `Funcionalidade 1`: descrição da funcionalidade 1
