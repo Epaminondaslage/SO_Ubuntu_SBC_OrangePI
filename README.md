@@ -188,6 +188,16 @@ Novamente, confirme pressionando ENTER mais uma vez. Uma janela remota de acesso
 O PuTTy é um cliente SSH para a plataforma Windows e Unix (Linux e suas distribuições). Ele é um software de código aberto desenvolvido e constantemente atualizado por um grupo de especialistas voluntários. O PuTTY é um dos mais populares clientes SSH. Ele cria uma espécie de túnel encriptado de comunicação entre servidores, garantindo a segurança e o anonimato das conexões.
 Com o Putty, o  usuário pode acessar e gerenciar seu servidor ou hospedagem remotamente. Com isso, é possível instalar, editar ou remover aplicações de acordo com as preferências de uso. 
 
+<p style="text-align: center;"><img src="/img/epaminondaslage.png" alt="" width="300" /></p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 11.242%;"><img src="/img/manual.png" alt="" width="50" /></td>
+<td style="width: 88.758%;"><br />Um arquivo PDF completo do manual de operação da SBC Orange Pi ode ser encontrado <a href="/docs/orangepi one_h3_user manual_v3.2.pdf">aqui</a></td>
+</tr>
+</tbody>
+</table>
+
 
 # Status do Projeto
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
