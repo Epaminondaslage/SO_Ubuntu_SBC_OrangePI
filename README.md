@@ -198,7 +198,7 @@ Com o Putty, o  usuário pode acessar e gerenciar seu servidor ou hospedagem rem
 </tbody>
 </table>
 
-# Scripts-em-shell
+# Scripts em shell
 
 Um script nada mais é do que um algoritmo projetado para realizar uma determinada tarefa, utilizando os comandos específicos do bash e os executáveis do sistema operacional.
 
