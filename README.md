@@ -198,9 +198,59 @@ Com o Putty, o  usuário pode acessar e gerenciar seu servidor ou hospedagem rem
 </tbody>
 </table>
 
+# Scripts-em-shell
+
+Um script nada mais é do que um algoritmo projetado para realizar uma determinada tarefa, utilizando os comandos específicos do bash e os executáveis do sistema operacional.
+
+O que é bash?
+
+O Bourne Again Shell ou bash, para abreviar, é um shell do Unix, mas também é uma linguagem de programação capaz de realizar diversas tarefas que ajudam a economizar tempo e energia.
+
+Um shell é um programa que permite que o usuário se comunique diretamente com o sistema operacional. Ele recebe e interpreta comandos enviados pelo operador ao Kernel — outro programa que gerencia todas as comunicações para o hardware — para que a ação desejada possa ser executada.
+
+Assim como ocorre com outras linguagens de script, o bash permite que softwares-pai recebam aprimoramentos constantes de forma prática. Além dessa função básica, também é possível realizar diversas configurações de software e extrair dados.
+Com o bash, em vez de passar horas executando diversos comandos de forma manual, você pode simplesmente criar um script e a máquina realiza todo o trabalho sozinho.
+
+Em resumo, as principais aplicações dessa linguagem são:
+
+    * manipular arquivos;
+    * monitorar o sistema operacional;
+    * realizar automação de processos de compilação de código;
+    * executar backups de rotina;
+    * vincular programas existentes;
+    * realizar lotes de conclusão;
+    * criar ambientes para programas;
+    * executar programas.
+    
+Existem as variáveis de shell e de ambiente. A diferença entre elas é que a primeira está disponível apenas no shell atual, enquanto a segunda está presente em um determinado programa ou em programas-filhos. 
+
+Variáveis de ambiente
+
+    * LANG: determina a configuração atual de idioma e localização;
+    * HOME: mostra o diretório de base do usuário;
+    * PATH: dá a lista de diretórios que o sistema operacional verifica ao procurar por algum comando;
+    * SHELL: apresenta o shell responsável por processar os comandos;
+    * PWD: mostra o diretório de trabalho atual;
+    * USER: configura o usuário conectado;
+    * TERM: mostra o terminal que está sendo utilizado;
+    * MAIL: configura o caminho para o e-mail do usuário
+
+Variáveis de shell
+
+    * IFS: quando utilizada no campo interno, tem a função de separar entradas na linha de comando;
+    * UID: mostra a identidade do usuário que estiver utilizando no momento;
+    * HOSTNAME: nome do host da máquina;
+    * HISTFILESIZE: mostra o número de linhas de histórico de comando que estão armazenadas;
+    * SHELLOPTS: exibe as opções de shell que podem ser definidas ao utilizar a opção “set”;
+    * DIRSTACK: mostra os diretórios com os comandos pushd e popd;
+    * BASH_VERSION: versão do bash.
+
+Desenvolvemos um repositorio especialmente para programar em Shell nossa GPIO no OrangePi One. <p>Acesse <strong><a href="https://github.com/Epaminondaslage/Shell-Script-em-Linux">aqui</a></strong> o repositorio no GITHUB.</p> 
+
 
 # Status do Projeto
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+Atualizado em Julho de 2022
 
 # Bibliografia
 
