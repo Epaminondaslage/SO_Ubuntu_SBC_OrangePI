@@ -90,7 +90,7 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <p style="text-align: center;"><img src="/img/Imagem7.jpg" alt="" width="150" /></p>
 <p><strong><em><span style="background-color: #ffff00;">Observe que a interface OTG da placa de desenvolvimento n&atilde;o pode ser usada como entrada de energia.</span> </em></strong></p>
 <p><strong>Download a&nbsp; imagem&nbsp; e informa&ccedil;&otilde;es relacionadas ao SW ou HW</strong></p>
-<p><a href="http://www.orangepi.org/downloadresources/">http://www.orangepi.org/downloadresources/</a></p>
+<p><a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-One.html">http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-One.html</a></p>
 <p><a href="https://github.com/orangepi-xunlong">https://github.com/orangepi-xunlong</a></p>
 
 # Instalação da Imagem no TF Card
@@ -107,7 +107,7 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <p>&nbsp;</p>
 
 ## Baixar a imagem do SO na p&aacute;gina de downloads.
-<p>1. Acessar o site: <a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.html">http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.html</a>&nbsp;</p>
+<p>1. Acessar o site: <a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.htm">http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.htm</a>&nbsp;</p>
 <p>2. Escolher a vers&atilde;o do hw adequado e vers&atilde;o do SO desejado No nosso caso Orange Pi One e Ubuntu.</p>
 <p style="text-align: center;"><img src="/img/Imagem10.png" alt="" width="400" /></p>
 <p>3. Salvar o arquivo em seu computador e descompacte o arquivo de download para obter a imagem do sistema operacional.</p>
