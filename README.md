@@ -107,7 +107,7 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <p>&nbsp;</p>
 
 ## Baixar a imagem do SO na p&aacute;gina de downloads.
-<p>1. Acessar o site: <a href="http://www.orangepi.org/downloadresources/">http://www.orangepi.org/downloadresources/</a>&nbsp;</p>
+<p>1. Acessar o site: <a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.html">http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.html</a>&nbsp;</p>
 <p>2. Escolher a vers&atilde;o do hw adequado e vers&atilde;o do SO desejado No nosso caso Orange Pi One e Ubuntu.</p>
 <p style="text-align: center;"><img src="/img/Imagem10.png" alt="" width="400" /></p>
 <p>3. Salvar o arquivo em seu computador e descompacte o arquivo de download para obter a imagem do sistema operacional.</p>
