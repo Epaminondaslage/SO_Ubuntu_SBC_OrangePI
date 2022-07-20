@@ -107,13 +107,13 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <p>&nbsp;</p>
 
 ## Baixar a imagem do SO na p&aacute;gina de downloads.
-<p>acessar o site <a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.html">http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.html</a></p>
+<p>1. Acessar o site <a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.html">http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.html</a></p>
 <p>2. Escolher a vers&atilde;o do hw adequado e vers&atilde;o do SO desejado No nosso caso Orange Pi One e Ubuntu.</p>
 <p style="text-align: center;"><img src="/img/Imagem10.png" alt="" width="400" /></p>
 <p>3. Salvar o arquivo em seu computador e descompacte o arquivo de download para obter a imagem do sistema operacional.</p>
 <p style="text-align: center;"><img src="/img/Imagem11.png" alt="" width="400" /></p>
 <p>4. Anotar o usu&aacute;rio e senha. Ser&aacute; necess&aacute;rio para acessar o OrangePi One : <strong>user(root)</strong>, <strong>password(orangepi)</strong></p>
-<p>5. Escolher a vers&atilde;o desejada do SO Ubuntu (geralmente a vers&atilde;o servidor mais recente&nbsp; Orangepione_2.1.0_ubuntu_xenial_server_linux3.4.113.7z):</p>
+<p>5. Escolher a vers&atilde;o desejada do SO Ubuntu (geralmente a vers&atilde;o servidor mais recente&nbsp;):</p>
 <p style="text-align: center;"><img src="/img/Imagem11a.png" alt="" width="400" /></p>
 <p>6. Utilizar um utilit&aacute;rio para descomprimir o arquivo e criar a vers&atilde;o ISO.</p>
 
