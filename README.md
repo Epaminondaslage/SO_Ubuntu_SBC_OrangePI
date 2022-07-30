@@ -1,5 +1,5 @@
-# Título: GPIO_em_SBC_Linux
-Acesso à GPIO usando Single board computer com SO Linux 
+# Título: SO Ubuntu SBC OrangePI
+Instalação da versão Ubuntu no Single board computer 
 
 
 # Índice deste Repositório
