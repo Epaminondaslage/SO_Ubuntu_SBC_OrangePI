@@ -2,7 +2,7 @@
 Instalação da versão Ubuntu no Single board computer 
 
 
-# Índice deste Repositório
+# Índice desse Repositório
 
 * [Descrição deste Projeto](#Descrição-deste-Projeto)
 * [O que é o Orange Pi?](#O-que-é-o-Orange-Pi?)
