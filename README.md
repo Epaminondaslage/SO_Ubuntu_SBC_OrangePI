@@ -11,7 +11,7 @@ Instalação da versão Ubuntu no Single board computer
 * [Introdução ao uso da placa de desenvolvimento](#Introdução-ao-uso-da-placa-de-desenvolvimento)
 * [Instalação da Imagem no TF Card](#Instalação-da-Imagem-no-TF-Card)
 * [Status do Projeto](#Status-do-Projeto)
-* [Bibliogafia](#Bibliogafia)
+* [Referências](#Referências)
 
 
 # Descrição deste Projeto
@@ -204,7 +204,7 @@ Desenvolvemos um repositorio especialmente para programar em Shell nossa GPIO no
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 Atualizado em Julho de 2022
 
-# Bibliografia
+# Referências
 
 - `Orangepi one_h3_user manual_v3.2`: Manual de operação da Orange Pi One
 
