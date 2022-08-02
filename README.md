@@ -15,66 +15,8 @@ Instalação da versão Ubuntu no Single board computer
 
 
 # Descrição deste Projeto
-Computador de placa única (SBC) é um computador onde todos os componentes electrônicos necessários para o seu funcionamento estão situados numa única placa de circuito impresso. Estes computadores são geralmente usados em sistemas de controle, alarmes, sistemas de medidas, entre outros. Atualmente, a oferta de SBC (Single-Board Computers) é grande. Para citar somente alguns, temos acesso facilmente no mercado de sistemas embarcados a: Raspberry Pi, BeagleBone Black, BeagleBone Green, Linkit Smart 7688, Intel Edison, CubieBoard, Arduino Mega 2560, Odroid, Orange Pi, Asus Tinker Board, etc. 
 
-Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois aspectos: configurações de hardware cada vez mais robustas e preços cada vez menores. É justamente nestes dois pontos que a empresa Orange Pi focou para a fabricação da Orange Pi One. Esta placa possui características extremamente atraentes em hardware a um preço muito competitivo. Entre outras características, esta máquina também incorpora um conector de 40 pins, porta USB, uma porta Gigabit Ethernet e HDMI. 
-
-Estas placas rodam o SO Linux  e possuem os pinos I/O  disponíveis para acesso através de Shell script, Pynton, etc. Uma vez configurados a direção do pino de I/O pode-se ler ou alterar o estado do pino de I/O resultado em leituras de sensores externos, atuação de relés, etc. 
-
-Este Repositório visa disponibilizar aos alunos do Curso de Eletrotécnica do Departamento de Engenharia Elétrica do CEFET-MG um tutorial de uso e um repositório de programas para o acesso à GPIO do Orange Pi através de Shell Script
-
-
-# O que é o Orange Pi?
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 50%;"><img src="/img/Imagem1.jpg" alt="" width="200" /></td>
-<td style="width: 50%;">Orange Pi &eacute; um computador de uma placa &uacute;nica e de c&oacute;digo aberto. Percence a uma nova gera&ccedil;&atilde;o de placa de desenvolvimento, pode executar o Android 4.4, Android 7.0, Ubuntu e Debian e outros sistemas operacionais. A placa de desenvolvimento Orange Pi One usa o sistema em chip Allwinner H3 e possui 512 MB de mem&oacute;ria DDR3.</td>
-</tr>
-</tbody>
-</table>
-
-
-# Aplicações do Orange Pi
-Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemos usá-lo para construir:
-<ul>
-<li>Um computador</li>
-<li>Um servidor sem fio</li>
-<li>Jogos</li>
-<li>Música e sons</li>
-<li>Vídeo HD</li>
-<li>Desenvolvimento de IoT</li>
-<li>Firewall</li>
-<li>Roteadores</li>
-<li>Android</li>
-</ul>
-
-
-# Recursos de hardware 
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 50%;">
-<p><img src="/img/Imagem3.jpg" alt="" width="300" /></p>
-</td>
-<td style="width: 50%;"><img src="/img/hw orange pi.png" alt="" width="300" /></td>
-</tr>
-</tbody>
-</table>
-
-
-## As vistas superior e inferior do Orange Pi One
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 50%;"><img src="/img/Imagem1.jpg" alt="" width="150" /></td>
-<td style="width: 50%;"><img src="/img/Imagem2.jpg" alt="" width="150" /></td>
-</tr>
-</tbody>
-</table>
-
-## As conex&otilde;es externas do Orange Pi One
-<p style="text-align: center;"><img src="/img/Imagem3.jpg" alt="" width="400" /></p>
+falar do ubuntu...........................
 
 # Introdução ao uso da placa de desenvolvimento
 
