@@ -5,9 +5,6 @@ Instalação da versão Ubuntu no Single board computer
 # Índice 
 
 * [Descrição deste Projeto](#Descrição-deste-Projeto)
-* [O que é o Orange Pi?](#O-que-é-o-Orange-Pi?)
-* [Aplicações do Orange Pi](#Aplicações-do-Orange-Pi)
-* [Recursos de hardware](#Recursos-de-hardware)
 * [Introdução ao uso da placa de desenvolvimento](#Introdução-ao-uso-da-placa-de-desenvolvimento)
 * [Instalação da Imagem no TF Card](#Instalação-da-Imagem-no-TF-Card)
 * [Status do Projeto](#Status-do-Projeto)
