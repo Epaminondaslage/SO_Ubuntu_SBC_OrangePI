@@ -13,7 +13,27 @@ Instalação da versão Ubuntu no Single board computer
 
 # Descrição deste Projeto
 
-falar do ubuntu...........................
+O Linux Ubuntu
+
+<p style="text-align: center;"><img src="/img/ubuntu.png" alt="" width="50" /></p>
+
+Na definição do próprio distribuidor, Ubuntu é um sistema operacional Linux completo, disponível gratuitamente com suporte da comunidade e profissional. A comunidade é construída sobre as idéias do Manifesto Ubuntu: 
+
+    * O software deve estar disponível gratuitamente; 
+    * As ferramentas de software devem ser utilizadas por pessoas em seu idioma local e apesar de quaisquer deficiências; 
+    * Deve-se ter a liberdade de personalizar e alterar o software da maneira que acharem melhor. 
+
+## Vantagens da distribuição Ubuntu
+
+A maior vantagem do Ubuntu sobre as outras distribuições, com certeza é a estabilidade de suporte. É distribuído em ciclos de lançamento estáveis e regulares, com um novo lançamento sendo enviado a cada seis meses. 
+
+A cada dois anos, uma versão de suporte de longo prazo do Ubuntu (LTS) estará disponível, com assistência por 5 anos. As versões intermediárias do Ubuntu – conhecidas como versões de desenvolvimento ou não LTS – são suportadas por 9 meses cada uma.
+
+Ubuntu é funcional para uso em desktop e servidor. A versão atual do Ubuntu suporta Intel x86 (PC compatível com IBM), AMD64 (x86-64), entre outros.
+
+Focando da praticidade do uso, a distribuição Ubuntu inclui muitas de peças de software, começando com o kernel Linux versão 5.4, GNOME 3.28, e cobrindo todos os aplicativos de desktop padrão de processamento de texto, aplicativos de planilha, aplicativos de acesso à Internet, software de servidor web, software de e-mail, linguagens de programação e ferramentas e vários jogos.
+
+Isso tornou o Ubuntu uma das versões mais populares e usadas quando pensamos em Linux. Vamos dar uma olhada nos principais destaques.
 
 # Introdução ao uso da placa de desenvolvimento
 
