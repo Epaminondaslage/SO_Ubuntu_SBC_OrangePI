@@ -15,7 +15,7 @@ Instalação da versão Ubuntu no Single board computer
 
 O Linux Ubuntu
 
-<p style="text-align: center;"><img src="/img/ubuntu.png" alt="" width="50" /></p>
+<p style="text-align: center;"><img src="/img/ubuntu.png" alt="" width="200" /></p>
 
 Na definição do próprio distribuidor, Ubuntu é um sistema operacional Linux completo, disponível gratuitamente com suporte da comunidade e profissional. A comunidade é construída sobre as idéias do Manifesto Ubuntu: 
 
