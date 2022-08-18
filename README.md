@@ -1,83 +1,39 @@
-# Titulo: GPIO_em_SBC_Linux
-Acesso à GPIO usando Single board computer com SO Linux 
+# Título: SO Ubuntu SBC OrangePI
+Instalação da versão Ubuntu no Single board computer 
 
 
 # Índice 
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
 * [Descrição deste Projeto](#Descrição-deste-Projeto)
-* [O que é o Orange Pi?](#O-que-é-o-Orange-Pi?)
-* [Aplicações do Orange Pi](#Aplicações-do-Orange-Pi)
-* [Recursos de hardware](#Recursos-de-hardware)
 * [Introdução ao uso da placa de desenvolvimento](#Introdução-ao-uso-da-placa-de-desenvolvimento)
 * [Instalação da Imagem no TF Card](#Instalação-da-Imagem-no-TF-Card)
-* [Scripts em Shell](#Scripts-em-shell)
 * [Status do Projeto](#Status-do-Projeto)
-* [Autor](#autor)
-* [Conclusão](#conclusão)
+* [Referências](#Referências)
 
 
 # Descrição deste Projeto
-Computador de placa única (SBC) é um computador onde todos os componentes electrónicos necessários para o seu funcionamento estão situados numa única placa de circuito impresso. Estes computadores são geralmente usados em sistemas de controle, alarmes, sistemas de medidas, entre outros. Atualmente, a oferta de SBC (Single-Board Computers) é grande. Para citar somente alguns, temos acesso facilmente no mercado de sistemas embarcados a: Raspberry Pi, BeagleBone Black, BeagleBone Green, Linkit Smart 7688, Intel Edison, CubieBoard, Arduino Mega 2560, Odroid, Orange Pi, Asus Tinker Board, etc. 
 
-Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois aspectos: configurações de hardware cada vez mais robustas e preços cada vez menores. É justamente nestes dois pontos que a empresa Orange Pi focou para a fabricação da Orange Pi One. Esta placa possui características extremamente atraentes em hardware a um preço muito competitivo. Entre outras características, esta máquina também incorpora um conector de 40 pins, porta USB, uma porta Gigabit Ethernet e HDMI. 
+O Linux Ubuntu
 
-Estas placas rodam o SO Linux  e possuem os pinos I/O  disponíveis para acesso através de Shell script, Pynton, etc. Uma vez configurados a direção do pino de I/O pode-se ler ou alterar o estado do pino de I/O resultado em leituras de sensores externos, atuação de relés, etc. 
+<p style="text-align: center;"><img src="/img/ubuntu.png" alt="" width="50" /></p>
 
-Este Repositório visa disponibilizar aos alunos do Curso de Eletrotécnica do Departamento de Engenharia Elétrica do CEFET-MG um tutorial de uso e um repositório de programas para o acesso à GPIO do Orange Pi através de Shell Script
+Na definição do próprio distribuidor, Ubuntu é um sistema operacional Linux completo, disponível gratuitamente com suporte da comunidade e profissional. A comunidade é construída sobre as idéias do Manifesto Ubuntu: 
 
+    * O software deve estar disponível gratuitamente; 
+    * As ferramentas de software devem ser utilizadas por pessoas em seu idioma local e apesar de quaisquer deficiências; 
+    * Deve-se ter a liberdade de personalizar e alterar o software da maneira que acharem melhor. 
 
-# O que é o Orange Pi?
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 50%;"><img src="/img/Imagem1.jpg" alt="" width="200" /></td>
-<td style="width: 50%;">Orange Pi &eacute; um computador de uma placa &uacute;nica e de c&oacute;digo aberto. Percence a uma nova gera&ccedil;&atilde;o de placa de desenvolvimento, pode executar o Android 4.4, Android 7.0, Ubuntu e Debian e outros sistemas operacionais. A placa de desenvolvimento Orange Pi One usa o sistema em chip Allwinner H3 e possui 512 MB de mem&oacute;ria DDR3.</td>
-</tr>
-</tbody>
-</table>
+## Vantagens da distribuição Ubuntu
 
+A maior vantagem do Ubuntu sobre as outras distribuições, com certeza é a estabilidade de suporte. É distribuído em ciclos de lançamento estáveis e regulares, com um novo lançamento sendo enviado a cada seis meses. 
 
-# Aplicações do Orange Pi
-Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemos usá-lo para construir:
-<ul>
-<li>Um computador</li>
-<li>Um servidor sem fio</li>
-<li>Jogos</li>
-<li>Música e sons</li>
-<li>Vídeo HD</li>
-<li>Desenvolvimento de IoT</li>
-<li>Firewall</li>
-<li>Roteadores</li>
-<li>Android</li>
-</ul>
+A cada dois anos, uma versão de suporte de longo prazo do Ubuntu (LTS) estará disponível, com assistência por 5 anos. As versões intermediárias do Ubuntu – conhecidas como versões de desenvolvimento ou não LTS – são suportadas por 9 meses cada uma.
 
+Ubuntu é funcional para uso em desktop e servidor. A versão atual do Ubuntu suporta Intel x86 (PC compatível com IBM), AMD64 (x86-64), entre outros.
 
-# Recursos de hardware 
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 50%;">
-<p><img src="/img/Imagem3.jpg" alt="" width="300" /></p>
-</td>
-<td style="width: 50%;"><img src="/img/hw orange pi.png" alt="" width="300" /></td>
-</tr>
-</tbody>
-</table>
+Focando da praticidade do uso, a distribuição Ubuntu inclui muitas de peças de software, começando com o kernel Linux versão 5.4, GNOME 3.28, e cobrindo todos os aplicativos de desktop padrão de processamento de texto, aplicativos de planilha, aplicativos de acesso à Internet, software de servidor web, software de e-mail, linguagens de programação e ferramentas e vários jogos.
 
-
-## As vistas superior e inferior do Orange Pi One
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 50%;"><img src="/img/Imagem1.jpg" alt="" width="150" /></td>
-<td style="width: 50%;"><img src="/img/Imagem2.jpg" alt="" width="150" /></td>
-</tr>
-</tbody>
-</table>
-
-## As conex&otilde;es externas do Orange Pi One
-<p style="text-align: center;"><img src="/img/Imagem3.jpg" alt="" width="400" /></p>
+Isso tornou o Ubuntu uma das versões mais populares e usadas quando pensamos em Linux. Vamos dar uma olhada nos principais destaques.
 
 # Introdução ao uso da placa de desenvolvimento
 
@@ -92,7 +48,7 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <p style="text-align: center;"><img src="/img/Imagem7.jpg" alt="" width="150" /></p>
 <p><strong><em><span style="background-color: #ffff00;">Observe que a interface OTG da placa de desenvolvimento n&atilde;o pode ser usada como entrada de energia.</span> </em></strong></p>
 <p><strong>Download a&nbsp; imagem&nbsp; e informa&ccedil;&otilde;es relacionadas ao SW ou HW</strong></p>
-<p><a href="http://www.orangepi.org/downloadresources/">http://www.orangepi.org/downloadresources/</a></p>
+<p><a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-One.html">http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-One.html</a></p>
 <p><a href="https://github.com/orangepi-xunlong">https://github.com/orangepi-xunlong</a></p>
 
 # Instalação da Imagem no TF Card
@@ -109,13 +65,13 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <p>&nbsp;</p>
 
 ## Baixar a imagem do SO na p&aacute;gina de downloads.
-<p>1. Acessar o site: <a href="http://www.orangepi.org/downloadresources/">http://www.orangepi.org/downloadresources/</a>&nbsp;</p>
+<p>1. Acessar o site <a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.html">http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-One.html</a></p>
 <p>2. Escolher a vers&atilde;o do hw adequado e vers&atilde;o do SO desejado No nosso caso Orange Pi One e Ubuntu.</p>
 <p style="text-align: center;"><img src="/img/Imagem10.png" alt="" width="400" /></p>
 <p>3. Salvar o arquivo em seu computador e descompacte o arquivo de download para obter a imagem do sistema operacional.</p>
 <p style="text-align: center;"><img src="/img/Imagem11.png" alt="" width="400" /></p>
 <p>4. Anotar o usu&aacute;rio e senha. Ser&aacute; necess&aacute;rio para acessar o OrangePi One : <strong>user(root)</strong>, <strong>password(orangepi)</strong></p>
-<p>5. Escolher a vers&atilde;o desejada do SO Ubuntu (geralmente a vers&atilde;o servidor mais recente&nbsp; Orangepione_2.1.0_ubuntu_xenial_server_linux3.4.113.7z):</p>
+<p>5. Escolher a vers&atilde;o desejada do SO Ubuntu (geralmente a vers&atilde;o servidor mais recente&nbsp;):</p>
 <p style="text-align: center;"><img src="/img/Imagem11a.png" alt="" width="400" /></p>
 <p>6. Utilizar um utilit&aacute;rio para descomprimir o arquivo e criar a vers&atilde;o ISO.</p>
 
@@ -190,58 +146,26 @@ Novamente, confirme pressionando ENTER mais uma vez. Uma janela remota de acesso
 O PuTTy é um cliente SSH para a plataforma Windows e Unix (Linux e suas distribuições). Ele é um software de código aberto desenvolvido e constantemente atualizado por um grupo de especialistas voluntários. O PuTTY é um dos mais populares clientes SSH. Ele cria uma espécie de túnel encriptado de comunicação entre servidores, garantindo a segurança e o anonimato das conexões.
 Com o Putty, o  usuário pode acessar e gerenciar seu servidor ou hospedagem remotamente. Com isso, é possível instalar, editar ou remover aplicações de acordo com as preferências de uso. 
 
-# Introdução ao Scripts em Shell
-
-Podemos utilizar a criação de arquivos de scripts para tornar mais simples as execuções de tarefas repetitivas no dia a dia. Muito tempo do programador é empregado em ações desse tipo, como abrir os mesmos programas todos os dias; esvaziar a lixeira e diretórios temp para economizar espaço em disco; etc.
-Um script nada mais é do que um algoritmo projetado para realizar uma determinada tarefa, utilizando os comandos específicos do bash e os executáveis do sistema operacional.
-
-    Lembre-se de executar os comandos como usuário comum e não como root, visto que, como root tudo será aceito e, dependendo do que você fizer, isto pode gerar danos ao sistema operacional. Uma maneira fácil de verificar é abrir o terminal e se o símbolo antes do cursor é o $, você está como usuário comum, mas se é o #, você está como root. Para sair do modo root, digite exit
-    
-    Devemos portando criar um usuário para que possamos trabalhar com segurança. O comando "adduser" serve para adicionar um usuário ou um grupo ao sistema, onde será criado um diretório com o nome do usuário, com uma entrada para o usuário no arquivo /etc/passwd (senhas). A utilização do comando adduser necessita do uso do comando sudo (deve estar com previlégio de root).
-Além disso, quando é adicionado um novo usuário, é criado, por padrão, um grupo com o nome do mesmo usuário. Caso seja criado um novo grupo, o comando adduser cria uma entrada para o grupo no arquivo /etc/group. 
-    
-
-    root@orangepione:/home# adduser epaminondas
-    Adding user `epaminondas' ...
-    Adding new group `epaminondas' (1001) ...
-    Adding new user `epaminondas' (1001) with group `epaminondas' ...
-    Creating home directory `/home/epaminondas' ...
-    Copying files from `/etc/skel' ...
-    Enter new UNIX password: 
-    Retype new UNIX password: 
-    passwd: password updated successfully
-    Changing the user information for epaminondas
-    Enter the new value, or press ENTER for the default
-	Full Name []: Epaminondas Lage
-	Room Number []: 
-	Work Phone []: 
-	Home Phone []: 
-	Other []: 
-    Is the information correct? [Y/n] Y
-    root@orangepione:/home# 
-Portanto pode-se sair da sessão e fazer ssh com o usuário recém criado.
 <p style="text-align: center;"><img src="/img/epaminondaslage.png" alt="" width="300" /></p>
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td style="width: 11.242%;"><img src="manual.png" alt="" width="100" /></td>
+<td style="width: 11.242%;"><img src="/img/manual.png" alt="" width="50" /></td>
 <td style="width: 88.758%;"><br />Um arquivo PDF completo do manual de operação da SBC Orange Pi ode ser encontrado <a href="/docs/orangepi one_h3_user manual_v3.2.pdf">aqui</a></td>
 </tr>
 </tbody>
 </table>
 
+Desenvolvemos um repositorio especialmente para programar em Shell nossa GPIO no OrangePi One. <p>Acesse <strong><a href="https://github.com/Epaminondaslage/Shell-Script-em-Linux">aqui</a></strong> o repositorio no GITHUB.</p> 
 
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
-- `Funcionalidade 4`: descrição da funcionalidade 4
-- 
+
 # Status do Projeto
-
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+Atualizado em Julho de 2022
 
-# Autor
+# Referências
 
-| [<img src="https://github.com/account" width=115><br><sub>Epaminondas Lage</sub>](https://github.com/epaminondaslage) | 
+- `Orangepi one_h3_user manual_v3.2`: Manual de operação da Orange Pi One
 
-# Conclusão
+
+
