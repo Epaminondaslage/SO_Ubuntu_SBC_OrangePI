@@ -1,4 +1,4 @@
-<p style="text-align: center;"><img src="/img/top_ubuntu.png" alt="" width="100" /></p>
+<td style="width: 20%;"><img src="/img/top_ubuntu.png" width="100%" /></td>
 
 # Índice 
 
