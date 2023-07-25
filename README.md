@@ -1,21 +1,14 @@
-# Título: SO Ubuntu SBC OrangePI
-Instalação da versão Ubuntu no Single board computer 
-
+<p style="text-align: center;"><img src="/img/top_ubuntu.png" alt="" width="100" /></p>
 
 # Índice 
 
-* [Descrição deste Projeto](#Descrição-deste-Projeto)
+* [O Linux Ubuntu](#O-Linux-Ubuntu)
 * [Introdução ao uso da placa de desenvolvimento](#Introdução-ao-uso-da-placa-de-desenvolvimento)
 * [Instalação da Imagem no TF Card](#Instalação-da-Imagem-no-TF-Card)
 * [Status do Projeto](#Status-do-Projeto)
 * [Referências](#Referências)
 
-
-# Descrição deste Projeto
-
-O Linux Ubuntu
-
-<p style="text-align: center;"><img src="/img/ubuntu.png" alt="" width="200" /></p>
+# O Linux Ubuntu
 
 Na definição do próprio distribuidor, Ubuntu é um sistema operacional Linux completo, disponível gratuitamente com suporte da comunidade e profissional. A comunidade é construída sobre as idéias do Manifesto Ubuntu: 
 
